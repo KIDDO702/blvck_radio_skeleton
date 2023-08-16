@@ -25,7 +25,8 @@ tailwind.config = {
             },
 
             fontFamily: {
-                bricolageGrotesque: ['Bricolage Grotesque', 'sans-serif']
+                bricolageGrotesque: ['Bricolage Grotesque', 'sans-serif'],
+                lobster: ['Lobster', 'cursive']
             }
         }
     }
