@@ -30,7 +30,10 @@
 
     <!-- swiper-css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-    
+
+    <!-- custom-css -->
+    <link rel="stylesheet" href="css/style.css">
+
     <!-- tailwind-css -->
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -112,7 +115,7 @@
 
 
                 <div class="flex items-center space-x-4">
-                    <a href="#" class="hidden bg-yellow-primary text-red-primary px-4 py-3 rounded drop-shadow-sm transition-all md:flex md:items-center hover:shadow-xl"> 
+                    <a href="#" class="bg-yellow-primary text-red-primary px-4 py-3 rounded drop-shadow-sm transition-all flex items-center hover:shadow-xl"> 
                         <span class="material-symbols-outlined mr-3">
                             playlist_play
                         </span>
@@ -207,7 +210,7 @@
                 </div>
             </div>
             <div class="mt-8 bg-gradient-to-r from-yellow-primary to-red-primary overflow-hidden p-2 drop-shadow-md lg:w-[45%]">
-                <img src="img/about/about.jpg" alt="about" class="w-full rounded" data-aos="fade-left" data-aos-duration="1500">
+                <img src="img/about/about.jpg" alt="about" class="w-full rounded h-[100%]" data-aos="fade-left" data-aos-duration="1500">
             </div>
         </div>
     </section>
@@ -679,7 +682,7 @@
 
     <section class="bg-fixed" style="background-image: url('img/testimonials/testimonial.jpg'); background-position: center, center; object-fit: cover;">
         <div class="bg-red-primary py-20 bg-opacity-80">
-            <div class="container">
+            <div class="container px-5 md:px-3 lg:px-0">
                 <div class="flex flex-col-reverse md:flex-row md:justify-between">
                     <div class= "mt-10 swiper testimonialSwiper md:w-[40%] md:mt-0">
                         <div class="swiper-wrapper">
@@ -789,6 +792,345 @@
         </div>
     </section>
 
+    <section class="py-20">
+        <div class="container py-10 px-5 rounded bg-fixed md:px-8 lg:py-7 lg:px-10" style="background-image: url('img/testimonials/testimonial.jpg');">
+            <div class="w-full md:flex md:items-center md:space-x-10">
+                <div class="md:w-[55%]">
+                    <h3 class="font-bold text-5xl lg:text-6xl text-white">
+                        <span class="text-yellow-primary">Subscribe</span> For The Latest Espisodes
+                    </h3>
+                    <p class="text-white font-light mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolorem molestiae cum officiis, quibusdam eveniet?</p>
+                </div>
+                <div class="md:w-[40%] mt-5 md:mt-0">
+                    <div>
+                        <h3 class="text-white text-2xl uppercase font-semibold">Newsletter</h3>
+                    </div>
+                    <form action="#" class="flex items-center mt-5">
+                        <div class="w-full">
+                            <!-- <label for="email">Newsletter</label> -->
+                            <input type="email" placeholder="Email" class="w-full border border-red-primary focus:outline-none px-4 py-2">
+                        </div>
+                        <div>
+                            <button type="submit" class="bg-red-primary text-yellow-primary px-4 py-2 hover:bg-red-900">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-dark-secondary">
+        <div class="container">
+            <div class="w-full text-center">
+                <span class="text-white text-sm">Our Patners</span>
+                <h3 class="text-5xl font-semibold text-white mt-3 tracking-[2px]">In <span class="text-yellow-primary">Collaboration</span> With</h3>
+            </div>
+
+            <div class="mt-16">
+                <div class="grid grid-cols-3 place-content-center place-items-center gap-4">
+                    <div class="w-[75%]">
+                        <img src="img/collaboration/logo-1.png" alt="" class="w-full">
+                    </div>
+                    <div class="w-[75%]">
+                        <img src="img/collaboration/logo-2.png" alt="" class="w-full">
+                    </div>
+                    <div class="w-[75%]">
+                        <img src="img/collaboration/logo-3.png" alt="" class="w-full">
+                    </div>
+                    <div class="w-[75%]">
+                        <img src="img/collaboration/logo-4.png" alt="" class="w-full">
+                    </div>
+                    <div class="w-[75%]">
+                        <img src="img/collaboration/logo-5.png" alt="" class="w-full">
+                    </div>
+                    <div class="w-[75%]">
+                        <img src="img/collaboration/logo-6.png" alt="" class="w-full">
+                    </div>
+                    <div class="w-[75%]">
+                        <img src="img/collaboration/logo.png" alt="" class="w-[50%]">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16">
+        <div class="container px-5 px-3 flex flex-col-reverse md:flex-row md:items-center md:space-x-10 lg:px-0">
+            <div class="md:w-[65%] drop-shadow-md mt-10 lg:mt-0">
+                <div class="w-full md:flex md:items-center md:justify-center space-x-4">
+                    <div class="md:w-[50%] bg-dark-secondary rounded">
+                        <div class="p-5 relative">
+                            <img src="img/blog/blog-1.jpg" alt="blog-thumbnail" class="rounded">
+                            <div class="absolute inset-0 bg-dark-primary bg-opacity-30"></div>
+                        </div>
+                        <div class="px-5 py-8">
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <small class="font-light text-white">Nyakundi Master</small>
+                                </div>
+                                <div>
+                                    <small class="text-white">11.03.2023</small>
+                                    <small class="text-yellow-primary">3 Hours Ago</small>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <a href="#" class="text-3xl text-white uppercase font-semibold text-yellow-primary">How to make 3k per week</a>
+                                <p class="mt-4 text-white font-light text-sm">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque distinctio, ducimus laboriosam soluta facilis animi molestias vero earum illo, ea asperiores saepe porro. Dolor qui reprehenderit hic modi provident dolorem.
+                                </p>
+                                <div class="mt-3 ">
+                                    <a href="#" class="text-red-600 flex items-center hover:text-yellow-primary">
+                                        <span>Read More</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6 flex items-center justify-center">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hidden w-[50%] bg-dark-secondary rounded md:block">
+                        <div class="p-5 relative">
+                            <img src="img/blog/blog-2.jpg" alt="blog-thumbnail" class="rounded">
+                            <div class="absolute inset-0 bg-dark-primary bg-opacity-30"></div>
+                        </div>
+                        <div class="px-5 py-8">
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <small class="font-light text-white">Crazy Bob</small>
+                                </div>
+                                <div>
+                                    <small class="text-white">11.03.2023</small>
+                                    <small class="text-yellow-primary">3 Days Ago</small>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <a href="#" class="text-3xl text-white uppercase font-semibold text-yellow-primary">Secrets of a master coder</a>
+                                <p class="mt-4 text-white font-light text-sm">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque distinctio, ducimus laboriosam soluta
+                                    facilis animi molestias vero earum illo, ea asperiores saepe porro. Dolor qui reprehenderit hic modi
+                                    provident dolorem.
+                                </p>
+                                <div class="mt-3 ">
+                                    <a href="#" class="text-red-600 flex items-center hover:text-yellow-primary">
+                                        <span>Read More</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                            stroke="currentColor" class="w-6 h-6 flex items-center justify-center">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-[35%] drop-shadow-md">
+                <div>
+                    <span class="text-white font-semibold">Our Blog</span>
+                    <h3 class="text-5xl text-white font-bold mt-3">Best <span class="text-yellow-primary">Entertainment</span> For You</h3>
+                    <p class="font-light text-white mt-3">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi similique nemo repellat fuga nostrum unde! Deleniti, voluptatum repellat! Tempore autem sit nemo saepe culpa porro odio exercitationem id sed cupiditate!
+                    </p>
+                    <div class="mt-7">
+                        <a href="#" class="bg-red-primary text-yellow-primary px-4 py-2.5 rounded hover:bg-red-900 focus:ring-2 focus:ring-outline-2 focus:ring-red-900">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-fixed" style="background-image: url('img/footer.jpg'); background-repeat: repeat-y; object-fit: cover cover;">
+        <div class="bg-dark-primary px-5 py-10 bg-opacity-70 md:px-3 lg:px-0">
+            <div class="container">
+                <div class="w-full grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+                    <div class="w-full">
+                        <div class="w-full">
+                            <img src="logo.png" alt="logo" class="w-[55%] drop-shadow-md">
+                        </div>
+                        <div class="mt-5">
+                            <p class="text-white text-sm font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet id est
+                                voluptatem molestias mollitia deserunt sapiente, sint rerum, iure molestiae excepturi architecto. Ratione
+                                ab, consequuntur vel aperiam eveniet aliquam veritatis.</p>
+                        </div>
+                        <div class="mt-10">
+                            <ul class="flex items-center space-x-5">
+                                <li>
+                                    <a href="#" class="bg-red-primary text-yellow-primary p-3 rounded-full drop-shadow-md hover:bg-red-950">
+                                        <i class="fa-brands fa-youtube"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="bg-red-primary text-yellow-primary p-3 rounded-full drop-shadow-md hover:bg-red-950">
+                                        <i class="fa-brands fa-spotify"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="bg-red-primary text-yellow-primary p-3 rounded-full drop-shadow-md hover:bg-red-950">
+                                        <i class="fa-brands fa-soundcloud"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="bg-red-primary text-yellow-primary p-3 rounded-full drop-shadow-md hover:bg-red-950">
+                                        <i class="fa-brands fa-x-twitter"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="w-full">
+                        <h3 class="text-3xl text-yellow-primary font-bold">Pages</h3>
+                    
+                        <ul class="mt-6 space-y-3">
+                            <li>
+                                <a href="index.html" class="flex items-center transition-all hover:px-5">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                        stroke="currentColor" class="w-6 h-6 text-red-primary font-bold">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                    </svg>
+                    
+                                    <span class="text-white">
+                                        Home
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="flex items-center transition-all hover:px-5">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                        stroke="currentColor" class="w-6 h-6 text-red-primary font-bold">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                    </svg>
+                    
+                                    <span class="text-white">
+                                        About Us
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="flex items-center transition-all hover:px-5">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                        stroke="currentColor" class="w-6 h-6 text-red-primary font-bold">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                    </svg>
+                    
+                                    <span class="text-white">
+                                        Podcast
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="flex items-center transition-all hover:px-5">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                        stroke="currentColor" class="w-6 h-6 text-red-primary font-bold">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                    </svg>
+                    
+                                    <span class="text-white">
+                                        Gallery
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="flex items-center transition-all hover:px-5">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                        stroke="currentColor" class="w-6 h-6 text-red-primary font-bold">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                    </svg>
+                    
+                                    <span class="text-white">
+                                        Blog
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="w-full">
+                        <h3 class="text-3xl text-yellow-primary font-bold">Listen To Us On</h3>
+                    
+                        <ul class="mt-6 space-y-3">
+                            <li>
+                                <a href="index.html" class="flex items-center transition-all hover:px-5">
+                                    <img src="img/about/youtube.png" alt="" class="w-[40%]">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="flex items-center transition-all hover:px-5">
+                                    <img src="img/about/spotify.png" alt="" class="w-[40%]">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="flex items-center transition-all hover:px-5">
+                                    <img src="img/about/google.png" alt="" class="w-[40%]">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="w-full">
+                        <h3 class="text-3xl text-yellow-primary font-bold">Contact Us</h3>
+                    
+                        <ul class="mt-6 space-y-3">
+                            <li>
+                                <a href="index.html" class="flex items-center drop-shadow-md space-x-5">
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                            stroke="currentColor" class="w-16 h-16 bg-red-primary text-yellow-primary p-3 rounded-full">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-white font-bold text-3xl">Address</h3>
+                                        <span class="text-yellow-primary">Kenya Mass South B</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="flex items-center drop-shadow-md space-x-5">
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                            stroke="currentColor" class="w-16 h-16 bg-red-primary text-yellow-primary p-3 rounded-full">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                                        </svg>
+                    
+                                    </div>
+                                    <div>
+                                        <h3 class="text-white font-bold text-3xl">Call Us</h3>
+                                        <span class="text-yellow-primary">+2547 123 45678</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="flex items-center drop-shadow-md space-x-5">
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                            stroke="currentColor" class="w-16 h-16 bg-red-primary text-yellow-primary p-3 rounded-full">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                                        </svg>
+                    
+                                    </div>
+                                    <div>
+                                        <h3 class="text-white font-bold text-3xl">Email</h3>
+                                        <span class="text-yellow-primary">info@blvk.com</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="border-white my-10">
+                <div class="w-full text-center">
+                    <h3 class="uppercase text-2xl uppercase text-white">Copyright &copy; Blvck Radio 2023</h3>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
