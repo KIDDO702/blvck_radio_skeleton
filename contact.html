@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blvck Radio - About</title>
+    <title>Blvck Radio - Contact US </title>
 
     <!-- favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -41,7 +41,7 @@
     <script src="config/tailwind.config.js"></script>
 </head>
 <body class="bg-dark-primary font-bricolageGrotesque">
-    <nav class="sticky top-0 drop-shadow-md z-50" x-data="{ sidebar:false }">
+    <nav class="sticky top-0 drop-shadow-md z-20" x-data="{ sidebar:false }">
         <div class="hidden bg-yellow-light md:block">
             <div class="container flex items-center justify-between">
                 <div class="font-light text-sm text-gray-600">
@@ -100,16 +100,20 @@
                         <a href="index.html" class="px-3 py-2.5 rounded hover:text-yellow-primary hover:bg-red-primary">Home</a>
                     </li>
                     <li>
-                        <a href="about.html" class="px-3 py-2.5 rounded text-yellow-primary bg-red-primary">About</a>
+                        <a href="about.html"
+                            class="px-3 py-2.5 rounded hover:text-yellow-primary hover:bg-red-primary">About</a>
                     </li>
                     <li>
-                        <a href="podcast.html" class="px-3 py-2.5 rounded hover:text-yellow-primary hover:bg-red-primary">Podcast</a>
+                        <a href="podcast.html"
+                            class="px-3 py-2.5 rounded hover:text-yellow-primary hover:bg-red-primary">Podcast</a>
                     </li>
                     <li>
-                        <a href="blog.html" class="px-3 py-2.5 rounded hover:text-yellow-primary hover:bg-red-primary">Blog</a>
+                        <a href="blog.html"
+                            class="px-3 py-2.5 rounded hover:text-yellow-primary hover:bg-red-primary">Blog</a>
                     </li>
                     <li>
-                        <a href="contact.html" class="px-3 py-2.5 rounded hover:text-yellow-primary hover:bg-red-primary">Contact</a>
+                        <a href="contact.html"
+                            class="px-3 py-2.5 rounded text-yellow-primary bg-red-primary">Contact</a>
                     </li>
                 </ul>
     
@@ -156,311 +160,96 @@
         </div>
     </nav>
 
-    <header class="relative">
-        <img src="img/about/about-header.jpg" alt="about-header">
-        <div class="absolute bg-red-primary inset-0 bg-opacity-40 flex items-center justify-center">
-            <div class="w-fit text-center bg-dark-primary bg-opacity-70 px-4 py-3 rounded">
-                <h3 class="text-2xl md:text-4xl font-bold text-yellow-primary uppercase">About Blvck</h3>
-                <ol class="flex items-center justify-center space-x-3 text-yellow-primary mt-3 uppercase">
-                    <li>
-                        <a href="index.html" class="underline underline-offset-4 text-sm">Home</a>
-                    </li>
-                    <li>
-                        <span class="material-symbols-outlined text-xs">
-                            chevron_right
-                        </span>
-                    </li>
-                    <li>
-                        <small>About</small>
-                    </li>
-                </ol>
-            </div>
-        </div>
-    </header>
-
     <section class="py-20">
-        <div class="container px-10 md:px-5 lg:px-3">
-            <div class="w-full lg:flex lg:items-start lg:justify-between">
-                <div class="lg:w-[60%] text-white">
-                    <h3 class="text-yellow-primary uppercase font-semibold">Brief History</h3>
-
-                    <p class="mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto consequuntur labore porro, pariatur dolorum voluptate facilis repudiandae eum voluptatibus corrupti optio quam soluta, sapiente, amet corporis aliquam veniam rem. Voluptatibus ea optio deserunt odit quod inventore, repellendus repudiandae doloremque amet, recusandae quidem nulla esse doloribus voluptates alias maiores vitae cum.</p>
-
-                    <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet tempora provident blanditiis numquam, excepturi esse iste placeat aperiam ratione, et molestiae perspiciatis sed minus! Corporis rem et id, iusto ut cum aspernatur incidunt? Quod deleniti vero ab asperiores. Eum!</p>
-
-                    <p class="mt-3">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ex blanditiis quibusdam vel aliquam odio pariatur atque totam impedit veritatis incidunt, officia distinctio neque amet ducimus repudiandae a, suscipit, molestias culpa non voluptates. Voluptates pariatur quaerat repellendus esse quidem minima?
-                    </p>
-
-                    <p class="mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto consequuntur labore porro, pariatur
-                        dolorum voluptate facilis repudiandae eum voluptatibus corrupti optio quam soluta, sapiente, amet corporis aliquam
-                        veniam rem. Voluptatibus ea optio deserunt odit quod inventore, repellendus repudiandae doloremque amet, recusandae
-                        quidem nulla esse doloribus voluptates alias maiores vitae cum.</p>
-                </div>
-                <div class="mt-10 md:mt-5 lg:mt-0 lg:w-[35%] relative">
-                    <img src="img/about/founder.jpg" alt="founder" class="rounded w-full drop-shadow-md">
-                    <div class="absolute bg-dark-primary inset-0 bg-opacity-40"></div>
-                    <div class="absolute bg-red-primary top-0 z-20 px-4 py-2 text-yellow-primary rounded-tl">
-                        <h3 class="text-xl font-semibold">The Founder</h3>
-                        <p class="text-2xl uppercase mt-2">Mr Nyakundi</p>
-                    </div>
-                </div>
-            </div>
-            <div class="w-full flex flex-col-reverse lg:flex-row justify-between items-start mt-20">
-                <div class="mt-10 md:mt-5 lg:mt-0 lg:w-[35%] relative">
-                    <video autoplay loop class="rounded drop-shadow-md">
-                        <source src="img/about/logo.mp4">
-                    </video>
-                </div>
-                <div class="lg:w-[60%] text-white">
-                    <h3 class="text-yellow-primary uppercase font-semibold">About Us</h3>
-                
-                    <p class="mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto consequuntur labore porro,
-                        pariatur dolorum voluptate facilis repudiandae eum voluptatibus corrupti optio quam soluta, sapiente, amet
-                        corporis aliquam veniam rem. Voluptatibus ea optio deserunt odit quod inventore, repellendus repudiandae
-                        doloremque amet, recusandae quidem nulla esse doloribus voluptates alias maiores vitae cum.</p>
-                
-                    <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet tempora provident
-                        blanditiis numquam, excepturi esse iste placeat aperiam ratione, et molestiae perspiciatis sed minus! Corporis
-                        rem et id, iusto ut cum aspernatur incidunt? Quod deleniti vero ab asperiores. Eum!</p>
-                
-                    <p class="mt-3">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ex blanditiis quibusdam vel aliquam odio
-                        pariatur atque totam impedit veritatis incidunt, officia distinctio neque amet ducimus repudiandae a, suscipit,
-                        molestias culpa non voluptates. Voluptates pariatur quaerat repellendus esse quidem minima?
-                    </p>
-                
-                    <p class="mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto consequuntur labore porro,
-                        pariatur
-                        dolorum voluptate facilis repudiandae eum voluptatibus corrupti optio quam soluta, sapiente, amet corporis
-                        aliquam
-                        veniam rem. Voluptatibus ea optio deserunt odit quod inventore, repellendus repudiandae doloremque amet,
-                        recusandae
-                        quidem nulla esse doloribus voluptates alias maiores vitae cum.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-20">
-        <div class="container px-10 md:px-5 lg:px-3">
-            <div class="text-center text-white">
-                <small>Our Values</small>
-                <h3 class="text-4xl font-bold mt-2">Why Choose <span class="text-yellow-primary">Blvk</span> Radio</h3>
-            </div>
-
-            <div class="mt-16 grid md:grid-cols-3 gap-5">
-                <div class="bg-dark-secondary rounded drop-shadow-md p-7">
+        <div class="container px-10 md:px-5 lg:px-0">
+            <div class="grid md:grid-cols-3 gap-4">
+                <div class="bg-dark-secondary rounded drop-shadow-md py-5">
                     <div class="text-center">
-                        <i class="fa-solid fa-award text-7xl text-red-primary"></i>
+                        <h3>
+                            <span class="material-symbols-outlined text-6xl text-yellow-primary">
+                                map
+                            </span>
+                        </h3>
                     </div>
-                    <div class="text-center mt-3 text-white">
-                        <h3 class="text-yellow-primary text-2xl font-semibold tracking-3">Best Sound Quality</h3>
-                        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio et quas laudantium asperiores fugit molestias delectus officia ullam, repellat necessitatibus.</p>
+                    <div class="text-center text-white mt-5">
+                        <h3 class="text-3xl font-bold mb-2">Our location</h3>
+                        <span class="text-lg font-light text-yellow-primary">South B</span>
                     </div>
                 </div>
-                <div class="bg-dark-secondary rounded drop-shadow-md p-7">
+                <div class="bg-dark-secondary rounded drop-shadow-md py-5">
                     <div class="text-center">
-                        <i class="fa-solid fa-people-group text-7xl text-red-primary"></i>
+                        <h3>
+                            <span class="material-symbols-outlined text-6xl text-yellow-primary">
+                                phone_callback
+                            </span>
+                        </h3>
                     </div>
-                    <div class="text-center mt-3 text-white">
-                        <h3 class="text-yellow-primary text-2xl font-semibold tracking-3">The Best Hosts</h3>
-                        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio et quas laudantium asperiores
-                            fugit molestias delectus officia ullam, repellat necessitatibus.</p>
+                    <div class="text-center text-white mt-5">
+                        <h3 class="text-3xl font-bold mb-2">Call Us</h3>
+                        <span class="text-lg font-light text-yellow-primary">+1234 45678</span>
                     </div>
                 </div>
-                <div class="bg-dark-secondary rounded drop-shadow-md p-7">
+                <div class="bg-dark-secondary rounded drop-shadow-md py-5">
                     <div class="text-center">
-                        <i class="fa-solid fa-icons text-7xl text-red-primary"></i>
+                        <h3>
+                            <span class="material-symbols-outlined text-6xl text-yellow-primary">
+                                mail
+                            </span>
+                        </h3>
                     </div>
-                    <div class="text-center mt-3 text-white">
-                        <h3 class="text-yellow-primary text-2xl font-semibold tracking-3">Interesting Topics</h3>
-                        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio et quas laudantium asperiores
-                            fugit molestias delectus officia ullam, repellat necessitatibus.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="bg-dark-secondary py-16">
-        <div class="container px-5 md:px-3 lg:px-0">
-            <div class="w-[60%] mx-auto">
-                <div class="flex items-center justify-center">
-                    <div class="text-center text-white">
-                        <h3 class="uppercase">Our Team</h3>
-                        <p class="font-bold text-4xl mt-1">Meet Our <span class="text-yellow-primary">Hosts</span></p>
-                    </div>
-                </div>
-            </div>
-            <div class="my-10">
-                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
-                    <div class="group bg-dark-primary p-4 rounded" data-aos="zoom-in" data-aos-duration="2000">
-                        <div class="relative overflow-hidden">
-                            <img src="img/team/team-1.jpg" alt="host-1"
-                                class="w-full rounded transition-all group-hover:scale-125">
-                            <div class="absolute inset-0 bg-black bg-opacity-30"></div>
-                        </div>
-                        <div class="py-3 text-center">
-                            <h2 class="text-white text-2xl font-bold uppercase">Robert Ochieng</h2>
-                            <p class="text-[#EAAE1C] text-lg font-semibold">Host</p>
-                            <ul class="flex items-center space-x-5 justify-center mt-3">
-                                <li>
-                                    <a href="#"
-                                        class="bg-[#F9BC2E] text-[#5E0000] flex items-center justify-center p-2 rounded-full hover:bg-black hover:text-white">
-                                        <i class="fa-brands fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#"
-                                        class="bg-[#F9BC2E] text-[#5E0000] flex items-center justify-center p-2 rounded-full hover:bg-black hover:text-white">
-                                        <i class="fa-brands fa-instagram"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#"
-                                        class="bg-[#F9BC2E] text-[#5E0000] flex items-center justify-center p-2 rounded-full hover:bg-black hover:text-white">
-                                        <i class="fa-brands fa-twitter"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="group bg-dark-primary p-4 rounded" data-aos="zoom-in" data-aos-duration="2000">
-                        <div class="relative overflow-hidden">
-                            <img src="img/team/team-2.jpg" alt="host-1"
-                                class="w-full rounded transition-all group-hover:scale-125">
-                            <div class="absolute inset-0 bg-black bg-opacity-30"></div>
-                        </div>
-                        <div class="py-3 text-center">
-                            <h2 class="text-white text-2xl font-bold uppercase">Robert Ochieng</h2>
-                            <p class="text-[#EAAE1C] text-lg font-semibold">Host</p>
-                            <ul class="flex items-center space-x-5 justify-center mt-3">
-                                <li>
-                                    <a href="#"
-                                        class="bg-[#F9BC2E] text-[#5E0000] flex items-center justify-center p-2 rounded-full hover:bg-black hover:text-white">
-                                        <i class="fa-brands fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#"
-                                        class="bg-[#F9BC2E] text-[#5E0000] flex items-center justify-center p-2 rounded-full hover:bg-black hover:text-white">
-                                        <i class="fa-brands fa-instagram"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#"
-                                        class="bg-[#F9BC2E] text-[#5E0000] flex items-center justify-center p-2 rounded-full hover:bg-black hover:text-white">
-                                        <i class="fa-brands fa-twitter"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="group bg-dark-primary p-4 rounded" data-aos="zoom-in" data-aos-duration="2000">
-                        <div class="relative overflow-hidden">
-                            <img src="img/team/team-3.jpg" alt="host-1"
-                                class="w-full rounded transition-all group-hover:scale-125">
-                            <div class="absolute inset-0 bg-black bg-opacity-30"></div>
-                        </div>
-                        <div class="py-3 text-center">
-                            <h2 class="text-white text-2xl font-bold uppercase">Robert Ochieng</h2>
-                            <p class="text-[#EAAE1C] text-lg font-semibold">Host</p>
-                            <ul class="flex items-center space-x-5 justify-center mt-3">
-                                <li>
-                                    <a href="#"
-                                        class="bg-[#F9BC2E] text-[#5E0000] flex items-center justify-center p-2 rounded-full hover:bg-black hover:text-white">
-                                        <i class="fa-brands fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#"
-                                        class="bg-[#F9BC2E] text-[#5E0000] flex items-center justify-center p-2 rounded-full hover:bg-black hover:text-white">
-                                        <i class="fa-brands fa-instagram"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#"
-                                        class="bg-[#F9BC2E] text-[#5E0000] flex items-center justify-center p-2 rounded-full hover:bg-black hover:text-white">
-                                        <i class="fa-brands fa-twitter"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="group bg-dark-primary p-4 rounded" data-aos="zoom-in" data-aos-duration="2000">
-                        <div class="relative overflow-hidden">
-                            <img src="img/team/team-4.jpg" alt="host-1"
-                                class="w-full rounded transition-all group-hover:scale-125">
-                            <div class="absolute inset-0 bg-black bg-opacity-30"></div>
-                        </div>
-                        <div class="py-3 text-center">
-                            <h2 class="text-white text-2xl font-bold uppercase">Robert Ochieng</h2>
-                            <p class="text-[#EAAE1C] text-lg font-semibold">Host</p>
-                            <ul class="flex items-center space-x-5 justify-center mt-3">
-                                <li>
-                                    <a href="#"
-                                        class="bg-[#F9BC2E] text-[#5E0000] flex items-center justify-center p-2 rounded-full hover:bg-black hover:text-white">
-                                        <i class="fa-brands fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#"
-                                        class="bg-[#F9BC2E] text-[#5E0000] flex items-center justify-center p-2 rounded-full hover:bg-black hover:text-white">
-                                        <i class="fa-brands fa-instagram"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#"
-                                        class="bg-[#F9BC2E] text-[#5E0000] flex items-center justify-center p-2 rounded-full hover:bg-black hover:text-white">
-                                        <i class="fa-brands fa-twitter"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                    <div class="text-center text-white mt-5">
+                        <h3 class="text-3xl font-bold mb-2">Email Us</h3>
+                        <span class="text-lg font-light text-yellow-primary">info@blvck.com</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="py-16 bg-dark-secondary">
-        <div class="container">
-            <div class="w-full text-center">
-                <span class="text-white text-sm">Our Patners</span>
-                <h3 class="text-5xl font-semibold text-white mt-3 tracking-[2px]">In <span
-                        class="text-yellow-primary">Collaboration</span> With</h3>
+    <section class="bg-dark-secondary py-20">
+        <div class="container px-10 md:px-5 lg:px-0">
+            <div class="text-center">
+                <h3 class="font-bold text-4xl text-white">Get in <span class="text-yellow-primary">Touch</span> with <span class="text-yellow-primary">Blvck</span></h3>
             </div>
-    
-            <div class="mt-16">
-                <div class="grid grid-cols-3 place-content-center place-items-center gap-4">
-                    <div class="w-[75%]">
-                        <img src="img/collaboration/logo-1.png" alt="" class="w-full">
+
+
+            <div class="mx-auto bg-dark-primary md:w-[70%] my-16 drop-shadow-md rounded py-8 px-5">
+                <form class="w-full">
+                    <div class="w-full">
+                        <input type="text" placeholder="Name" class="w-full px-4 py-3 bg-dark-secondary rounded text-gray-400 placeholder:text-gray-400 focus:outline-none">
                     </div>
-                    <div class="w-[75%]">
-                        <img src="img/collaboration/logo-2.png" alt="" class="w-full">
+                    <div class="w-full flex items-center space-x-4 mt-7">
+                        <div class="w-[50%]">
+                            <input type="text" placeholder="Email"
+                                class="w-full px-4 py-3 bg-dark-secondary rounded text-gray-400 placeholder:text-gray-400 focus:outline-none">
+                        </div>
+                        <div class="w-[50%]">
+                            <input type="text" placeholder="Phone Number"
+                                class="w-full px-4 py-3 bg-dark-secondary rounded text-gray-400 placeholder:text-gray-400 focus:outline-none">
+                        </div>
                     </div>
-                    <div class="w-[75%]">
-                        <img src="img/collaboration/logo-3.png" alt="" class="w-full">
+                    <div class="w-full mt-7">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Message" class="w-full px-4 py-3 bg-dark-secondary rounded text-gray-400 placeholder:text-gray-400 focus:outline-none"></textarea>
                     </div>
-                    <div class="w-[75%]">
-                        <img src="img/collaboration/logo-4.png" alt="" class="w-full">
+                    <div class="mt-10">
+                        <button class="bg-red-primary font-semibold text-yellow-primary px-4 py-2 drop-shadow-md rounded hover:bg-yellow-primary hover:text-red-primary">
+                            Send Message
+                        </button>
                     </div>
-                    <div class="w-[75%]">
-                        <img src="img/collaboration/logo-5.png" alt="" class="w-full">
-                    </div>
-                    <div class="w-[75%]">
-                        <img src="img/collaboration/logo-6.png" alt="" class="w-full">
-                    </div>
-                    <div class="w-[75%]">
-                        <img src="img/collaboration/logo.png" alt="" class="w-[50%]">
-                    </div>
-                </div>
+                </form>
             </div>
         </div>
     </section>
 
-    <!-- footer -->
+    <section>
+        <div class="w-full">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.098217731891!2d36.813117820020516!3d-1.3106058216764505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f11a9d644a551%3A0xffc84960ca560e99!2sSouth%20B%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1695112126859!5m2!1sen!2ske"
+                width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" class="w-full"></iframe>
+        </div>
+    </section>
+
     <footer class="bg-fixed"
         style="background-image: url('img/footer.jpg'); background-repeat: repeat-y; object-fit: cover cover;">
         <div class="bg-dark-primary px-5 py-10 bg-opacity-70 md:px-3 lg:px-0">
@@ -563,7 +352,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="contact.html" class="flex items-center transition-all hover:px-5">
+                                <a href="index.html" class="flex items-center transition-all hover:px-5">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                         stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-primary font-bold">
                                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -571,7 +360,7 @@
                                     </svg>
     
                                     <span class="text-white">
-                                        Contact
+                                        Contact Us
                                     </span>
                                 </a>
                             </li>
@@ -679,5 +468,8 @@
     
     <!-- aos-config -->
     <script src="config/aos.config.js"></script>
+    
+    <!-- shikwasa -->
+    <script src="https://cdn.jsdelivr.net/npm/shikwasa@2.2.1/dist/shikwasa.min.js"></script>
 </body>
 </html>
